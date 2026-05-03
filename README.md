@@ -8,7 +8,7 @@ Pure HTML + CSS + a tiny bit of JS for the mobile menu — no build step, no fra
 - `index.html` — Main single-page site (Hero, Services, About, Testimonials, Contact)
 - `blog.html` — Blog listing page
 - `styles.css` — Shared design system used by both pages
-- `README.md` — This file
+- `README.md` — This file 
 
 ## Preview locally
 
