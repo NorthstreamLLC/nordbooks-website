@@ -356,6 +356,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   background:
     linear-gradient(135deg, var(--accent-soft), #fff);
   border: 1px solid var(--border);
+  overflow: hidden;
   display: grid;
   place-items: center;
   font-family: var(--font-serif);
@@ -364,6 +365,12 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   font-weight: 600;
   letter-spacing: -0.02em;
   box-shadow: var(--shadow-sm);
+}
+.about-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .credentials {
   display: flex;
